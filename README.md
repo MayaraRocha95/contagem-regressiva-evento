@@ -1,2 +1,6 @@
-# contagem-regressiva-evento
-Projeto para estudar JavaScript, com o tema Rock in Rio.
+# Contagem regressiva com um evento
+Projeto para estudar JavaScript. Com o tema Rock in Rio, nele está acontecendo uma contangem regressiva até a data e horário do evento.
+
+[Confira Agora](https://contagemregressivaevento.netlify.app/)
+
+![imagem do código e da página](./img/rockinrio.jpg)

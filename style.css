@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  background-image: url('./img/fundo.png');
+  background-size: cover; /* para preencher a tela inteira*/
+  color: whitesmoke;
+  font-family: 'Montserrat', sans-serif;
+  user-select: none;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+
+  background-color:#00000080;
+}
+
+.title{
+  font-size: calc(10px + 2vw);
+  margin-top:120px;
+  text-shadow:rgb(97, 3, 3) -1px -1px;
+}
+
+.title p {
+  font-size: calc(10px + 1vw);
+
+}
+.countdown{
+  display: flex;
+  width: 60vw;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.countdown h1 {
+  font-size: calc(10px + 8vw);
+  text-shadow: 0 0 10px white;/* para deixar efeito de iluminado*/
+}
+
+.button{
+  background-color:#00000000;
+  color:white;
+
+  padding:10px;
+  cursor:pointer;
+}
+.button a {
+  text-decoration: none;
+}
+.button:hover{
+  background-color:antiquewhite;
+  color:rgb(97, 3, 3);
+  border-radius: 16px;
+  font-weight:bold;
+
+}
+
+@media screen and (max-width: 800px) {
+ body {
+    background-image: url("./img/fundoresponsivo.png");
+
+  }
+}
+@media screen and (max-width: 600px) {
+  body  {
+    background-image: url("./img/fundoresponsivo.png");
+   
+  }
+}
+@media screen and (max-width: 400px) {
+  body  {
+    background-image: url("./img/fundoresponsivo.png");
+    
+  }
+}
+@media screen and (max-width: 320px) {
+  body  {
+    background-image: url("./img/fundoresponsivo.png");
+
+  }
+}
