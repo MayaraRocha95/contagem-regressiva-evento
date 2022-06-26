@@ -4,3 +4,9 @@ Projeto para estudar JavaScript. Com o tema Rock in Rio, nele está acontecendo 
 [Confira Agora](https://contagemregressivaevento.netlify.app/)
 
 ![imagem do código e da página](./img/rockinrio.jpg)
+
+## ✔️ Tecnologias utilizadas
+
+- ``HTML``
+- ``CSS``
+- ``JavaScript``
